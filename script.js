@@ -137,7 +137,7 @@ fetch("znieksztalcenia.geojson")
                 var ratio = parseFloat(feature.properties["Merkator_ExportFeatu_Project.Ratio"])
                 var popupContent = `
                     <strong>${feature.properties["Merkator_ExportFeatu_Project.ADMIN"]}</strong><br>
-                    Pole wg odwzorowania Mercatora: ${formatArea(mercator)}<br>
+                    Pole wg odwzorowania Merkatora: ${formatArea(mercator)}<br>
                     Rzeczywiste pole: ${formatArea(truearea)}<br>
                     Współczynnik zakłamania: ${ratio.toFixed(2)}
                 `;
